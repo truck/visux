@@ -25,7 +25,7 @@ syntax on
 
 " fix the look/feel
 " osx
-set guifont=TopazPlus\ a600a1200a4000:h16
+"set guifont=TopazPlus\ a600a1200a4000:h16
 " X11+xft
 set guifont=TopazPlus\ a600a1200a4000\ 12
 set guioptions=cm
