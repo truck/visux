@@ -1,0 +1,36 @@
+---
+VISUX
+---
+I don't do vi.  Moded editing is a concept that just does not produce results
+for me.
+
+I do emacs, and Textmate.  Emacs has some limitations inherent with being LISP
+based which cause some issues; TextMate is bound to osX and osX is rapidly
+declining into a system I will not use.
+
+So, basically, we come to this: VIM has a lot of good plugins; it has python
+scripting support, and vimacs showed that it was possible to fix the second
+reason vi does not work for me - the keymapings are just goofy.  It also
+showed where my other issue is - the primary one - and that is "Modal
+Editing."  No need for that when you can assign things to keys, keep your
+hands on the  keyboard, and be productive.  Hey, if those keys work for you,
+great.  I ain't telling you how to work.  This works for me.
+
+* note: if you are intending to tell me how to work: go do some work.
+* Seriously. Get over yourself.
+
+This is my alteration of vimacs to fix it to work with various plugins I
+needed or wanted - so it worked MY way, and I could get WORK done.
+
+It also is various plugins, and various setups in my vimrc that help with
+things.
+
+I use this on multiple OS's - including ones _you_ don't use and don't care
+about - like MorphOS and Amiga.
+
+* Note: Amiga originally had microemacs and not vi.
+* It is the c64 turbo assembler that is vi like. (TASM)
+
+So there you go.  Flame on, vi cultists, flame on.  I'm gonna do actual work.
+Using my emacs bindings and my TextMate-like environment.
+
