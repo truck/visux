@@ -3,15 +3,15 @@ set insertmode
 set selectmode +=cmd
 
 " autoindent stuff
-set cindent
-set smartindent
-set autoindent
+"set cindent
+"set smartindent
+"set autoindent
 "set expandtab
 
+filetype plugin indent on
 
 " don't take my mouse cursor away!
 set nomousehide
-
 
 " fire up pathogen
 call pathogen#infect()
@@ -24,22 +24,20 @@ call pathogen#infect()
 syntax on
 
 " fix the look/feel
-" osx
-"set guifont=TopazPlus\ a600a1200a4000:h16
-" X11+xft
 set guifont=TopazPlus\ a600a1200a4000\ 12
+" console queries, menu at top, no useless toolbar
 set guioptions=cm
-" no toolbar
+" no toolbar (in this case I'll use it, at work, no)
 "set go-=T
 set ruler
 
-"osx only
-set transparency=5
+"set transparency=5
 
 " this is supposed to freaking change the colorset to a dark background.
 set background=dark
 set bg=dark
 "colo tetragrammaton
+"colo torte
 colo solarized
 
 " this sets the :a and 'e and so on bits.
@@ -101,7 +99,9 @@ inoremap <F5> <c-o>:make<cr>
 "Nerdtreestuff
 let NERDChristmasTree=1
 "set NERDTreeChDirMode=1
-let NERDTreeShowHidden=1" toggle insert mode on/off on f12. I would just leave this
+let NERDTreeShowHidden=1
+
+" toggle insert mode on/off on f12. I would just leave this
 " but so many 'other buffers' are set up to do things in 'normal'
 " mode that this is neccesary.
 function! Itog()
@@ -121,5 +121,4 @@ inoremap <F6> <c-o>:Gedit<cr>
 inoremap <s-F6> <c-o>:Gstatus<cr>
 inoremap <c-F6> <c-o>:Gsplit 
 inoremap <a-F6> <c-o>:Gvsplit 
-
 
