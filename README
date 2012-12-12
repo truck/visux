@@ -34,3 +34,9 @@ about - like MorphOS and Amiga.
 So there you go.  Flame on, vi cultists, flame on.  I'm gonna do actual work.
 Using my emacs bindings and my TextMate-like environment.
 
+---
+I have abandoned this, though this works; even nicely; however:
+ * most of your plugins for vim are unable to handle the concept of non-modal editing.
+ * modal editing and I do not get along.
+ * because it is an utter waste of time.
+ * I have spent some time with lisp. Lisp is not that difficult. Or bad.
